@@ -2,9 +2,9 @@
 A Pokemon battle simulator using [nim](http://nim-lang.org/) and the PokeAPI.
 
 ## Run it!
-Run it:
+Run it (with SSL enabled):
 ```bash
-nim c -r pokenim
+nim c -r -d:ssl pokenim
 ```
 
 ## Other
